@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #2B2B2B;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 0px;
+
+}
+header h4.logo {
+  margin: 0;
+  margin-left: 40px;
+  font-size: 1.7em;
+  color: #F2F2F2;
+  float: left;
+}
+header h4.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container {
+  width: auto;
+  margin: 0 auto;
+}
+div.home {
+  padding: 100px 0 100px 0;
+  background-color: #FFFFFF;
+  color: #2B2B2B;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+div.about {
+  padding: 50px 0 50px 0;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("jungle.jpg");
+  color: #F2F2F2;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+h4 {
+  font-size: 1.7em;
+  font-weight: 50;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+  margin-right: 40px;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #2B2B2B;
+  background: #F2F2F2;
+  border: 7px solid;
+  border-color: #F2F2F2;
+}
+
+.uploadbutton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 35px;
+  }
+
+.uploadbutton:hover {
+  box-shadow: 0 0 10px rgb(76,175,80);
+}
+
+.input[type=file], input[type=submit] {
+  margin-top: 50px;
+  background-color: #4CAF50;
+  border: none;
+  color: #F2F2F2;
+  font-size: 16px;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+ }
+
+.input[type=file], input[type=submit]:hover {
+  box-shadow: 0 0 10px rgb(76,175,80);
+}
+
+.weare {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.uploadbuttons {
+  margin-top: 300px;
+}
